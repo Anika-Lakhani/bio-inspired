@@ -26,7 +26,7 @@ The biological inspiration comes from two key mechanisms:
 
 ## Code Demo
 
-To familiarize yourself with the codebase, first watch the optional code demo at tinyurl.com/anika-bio-inspired (also linked in START-HERE.png in repo)
+To familiarize yourself with the codebase, first watch the optional code demo [here](tinyurl.com/anika-bio-inspired) (also linked in START-HERE.png in repo).
 
 ## Installation
 
