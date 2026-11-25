@@ -1,0 +1,22 @@
+seed 0 Inhibition v2    (90s) clean 85.6 | s=0.01 79.4 | s=0.03 39.5 | s=0.05 23.8 | s=0.1 16.3 | occluded 82.9  [alpha=-0.853]
+seed 0 Combined v2      (158s) clean 86.1 | s=0.01 77.7 | s=0.03 40.9 | s=0.05 27.2 | s=0.1 11.9 | occluded 82.7  [alpha=-1.204 attn_weight=0.73]
+seed 1 Inhibition v2    (194s) clean 83.8 | s=0.01 78.2 | s=0.03 45.6 | s=0.05 36.3 | s=0.1 17.3 | occluded 80.3  [alpha=-0.898]
+seed 1 Combined v2      (136s) clean 85.1 | s=0.01 81.4 | s=0.03 45.7 | s=0.05 33.7 | s=0.1 12.6 | occluded 81.0  [alpha=-1.341 attn_weight=0.74]
+seed 2 Inhibition v2    (141s) clean 83.6 | s=0.01 81.6 | s=0.03 46.2 | s=0.05 29.5 | s=0.1 13.1 | occluded 78.6  [alpha=-0.837]
+seed 2 Combined v2      (144s) clean 84.2 | s=0.01 80.4 | s=0.03 45.8 | s=0.05 30.0 | s=0.1 10.5 | occluded 77.3  [alpha=-1.233 attn_weight=0.75]
+
+mean ± std over seeds (accuracy %), and paired diff vs Control
+                             clean            s=0.01            s=0.03            s=0.05             s=0.1          occluded
+Control              85.0 ±  1.0        80.3 ±  1.5        44.8 ±  6.0        27.0 ±  5.1        13.2 ±  1.9        81.7 ±  2.1   
+Attention Only       85.0 ±  1.4        79.2 ±  2.1        44.5 ±  6.7        31.5 ±  1.2        13.9 ±  1.5        80.3 ±  5.5   
+Inhibition v1        64.9 ±  1.2        62.9 ±  2.9        29.1 ±  1.8        18.6 ±  3.3        14.8 ±  4.4        57.4 ±  3.7   
+Combined v1          69.1 ±  3.6        66.6 ±  0.7        33.9 ±  1.8        24.0 ±  1.7        11.5 ±  2.3        64.1 ±  2.8   
+Inhibition v2        84.3 ±  1.1        79.7 ±  1.7        43.8 ±  3.7        29.9 ±  6.2        15.6 ±  2.2        80.6 ±  2.1   
+Combined v2          85.1 ±  0.9        79.8 ±  1.9        44.1 ±  2.8        30.3 ±  3.3        11.7 ±  1.1        80.3 ±  2.7   
+Attention Only - Ctrl     +0.0 ±  1.0        -1.1 ±  1.5        -0.2 ±  9.1        +4.5 ±  5.0        +0.6 ±  2.8        -1.4 ±  3.7   
+Inhibition v1 - Ctrl    -20.1 ±  0.2       -17.3 ±  2.4       -15.7 ±  4.3        -8.3 ±  8.4        +1.6 ±  5.1       -24.2 ±  3.3   
+Combined v1 - Ctrl    -15.9 ±  3.4       -13.7 ±  2.2       -10.9 ±  5.0        -3.0 ±  6.8        -1.7 ±  4.1       -17.6 ±  2.8   
+Inhibition v2 - Ctrl     -0.6 ±  0.9        -0.6 ±  1.2        -1.0 ±  3.7        +2.9 ±  1.1        +2.4 ±  3.5        -1.1 ±  1.7   
+Combined v2 - Ctrl     +0.1 ±  0.5        -0.5 ±  1.5        -0.7 ±  3.9        +3.3 ±  1.9        -1.6 ±  2.5        -1.4 ±  1.3   
+
+[exited with code 0]

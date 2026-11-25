@@ -1,0 +1,4 @@
+Late, a free   alpha -0.853 | effective center mean -0.0484 | channels center>0 43% | cosine to DoG mean +0.03, channels >0 59% | kernel norm mean 1.140
+Late, a>=0     alpha +0.795 | effective center mean +0.1748 | channels center>0 78% | cosine to DoG mean +0.27, channels >0 78% | kernel norm mean 1.121
+Early, a>=0    alpha +0.131 | effective center mean +0.0276 | channels center>0 81% | cosine to DoG mean +0.35, channels >0 88% | kernel norm mean 0.149
+Early, a free  alpha +0.131 | effective center mean +0.0276 | channels center>0 81% | cosine to DoG mean +0.35, channels >0 88% | kernel norm mean 0.149
